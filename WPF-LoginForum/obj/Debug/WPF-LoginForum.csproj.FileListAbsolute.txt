@@ -13,3 +13,12 @@ D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.Generate
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.CoreCompileInputs.cache
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.exe
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.pdb
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\ButtonTheme.baml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\App.baml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.CopyComplete
