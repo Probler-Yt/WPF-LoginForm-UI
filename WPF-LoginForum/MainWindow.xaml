@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_LoginForum"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="380" AllowsTransparency="True" 
+        Background="Transparent" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
         
+        <!--this splits the view into 2 rows stacked. the top half and the buttom half-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            
+            <!--this makes the border roundier and also gives the gradiant / color-->
+            <Border CornerRadius="10" Grid.RowSpan="2">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7be9f6" Offset="0.0"/>
+                        <GradientStop Color="#f083da" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <StackPanel VerticalAlignment="Center">
+                <Image Source="/Images/Icon Mono White Transparent.png" Width="80"/>
+                
+                <TextBlock Text="Probler" 
+                           FontWeight="Light" 
+                           FontSize="22" 
+                           FontFamily="helvetica"
+                           Foreground="White" 
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" >
+                <TextBox FontFamily="helvetica"
+                         FontWeight="Light"
+                         Text="Username"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="White"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="235"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"/>
+            </StackPanel>
+            
+        </Grid>
     </Grid>
 </Window>

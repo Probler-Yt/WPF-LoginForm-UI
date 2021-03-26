@@ -1,0 +1,15 @@
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\WPF-LoginForum.exe.config
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\WPF-LoginForum.exe
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\WPF-LoginForum.pdb
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csprojAssemblyReference.cache
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainWindow.g.cs
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\App.g.cs
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum_MarkupCompile.cache
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum_MarkupCompile.lref
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainWindow.baml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.g.resources
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF_LoginForum.Properties.Resources.resources
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.GenerateResource.cache
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.CoreCompileInputs.cache
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.exe
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.pdb
