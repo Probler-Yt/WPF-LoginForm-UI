@@ -9,7 +9,7 @@
         Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
         MouseDown="Window_MouseDown">
     <Grid>
-        
+
         <!--this splits the view into 2 rows stacked. the top half and the buttom half-->
         <Grid>
             <Grid.RowDefinitions>
@@ -17,7 +17,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            
+
             <!--this makes the border roundier and also gives the gradiant / color-->
             <Border CornerRadius="10" Grid.RowSpan="2">
                 <Border.Background>
@@ -31,7 +31,7 @@
 
             <StackPanel VerticalAlignment="Center">
                 <Image Source="/Images/Icon Mono White Transparent.png" Width="80"/>
-                
+
                 <TextBlock Text="Probler" 
                            FontWeight="Light" 
                            FontSize="22" 
@@ -94,11 +94,14 @@
                     <Button Width="100" Height="40" Content="LOGIN" Margin="60,0,60,0"/>
                     <Button Width="100" Height="40" Content="REGISTER"/>
                 </StackPanel>
-                
+
             </StackPanel>
 
-            
-
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+                <Button Content="-" FontStretch="Expanded" FontWeight="Black" Width="21" Height="21" Margin="10" Click="Button_Click"/>
+                <Button Content="X" Width="21" Height="21" Margin="5" Click="Close"/>
+                
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>

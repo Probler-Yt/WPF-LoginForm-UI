@@ -32,5 +32,15 @@ namespace WPF_LoginForum
                 DragMove();
             }
         }
+
+        private void Close(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
     }
 }
