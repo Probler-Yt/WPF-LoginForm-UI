@@ -97,10 +97,9 @@
 
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
-                <Button Content="-" FontStretch="Expanded" FontWeight="Black" Width="21" Height="21" Margin="10" Click="Button_Click"/>
-                <Button Content="X" Width="21" Height="21" Margin="5" Click="Close"/>
-                
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
+                <Button Content="-" FontSize="20" FontWeight="Black" Width="22" Height="21"  Click="Button_Click"/>
+                <Button Content="X" Width="21" FontWeight="Bold" Height="21" Margin="05,0,0,0" Click="Close" RenderTransformOrigin="0.226,1.417"/>
             </StackPanel>
         </Grid>
     </Grid>
