@@ -46,10 +46,16 @@ namespace WPF_LoginForum
 
         private void LogIn(object sender, RoutedEventArgs e)
         {
-            this.Hide();
             MainApp MA = new MainApp();
             MA.Show();
+            this.Close();
         }
 
+        private void Register(object sender, RoutedEventArgs e)
+        {
+            RegisterView RV = new RegisterView();
+            RV.Show();
+            this.Close();
+        }
     }
 }

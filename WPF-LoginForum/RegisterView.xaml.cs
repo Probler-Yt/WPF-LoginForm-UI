@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WPF_LoginForum
 {
     /// <summary>
-    /// Interaction logic for MainApp.xaml
+    /// Interaction logic for RegisterView.xaml
     /// </summary>
-    public partial class MainApp : Window
+    public partial class RegisterView : Window
     {
-        public MainApp()
+        public RegisterView()
         {
             InitializeComponent();
         }
@@ -32,13 +32,6 @@ namespace WPF_LoginForum
             }
         }
 
-        private void LogOut(object sender, RoutedEventArgs e)
-        {
-            MainWindow MW = new MainWindow();
-            MW.Show();
-            this.Close();
-        }
-
         private void Close(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
@@ -47,6 +40,18 @@ namespace WPF_LoginForum
         private void Minimise(object sender, RoutedEventArgs e)
         {
             WindowState = WindowState.Minimized;
+        }
+
+        private void Register(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LogIn(object sender, RoutedEventArgs e)
+        {
+            MainWindow MW = new MainWindow();
+            MW.Show();
+            this.Close();
         }
     }
 }
