@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="RegisterView" Height="520" Width="380" AllowsTransparency="True" 
         Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown">
+        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
     <Grid>
 
         <!--this splits the view into 2 rows stacked. the top half and the buttom half-->

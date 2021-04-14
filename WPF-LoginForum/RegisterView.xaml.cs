@@ -44,7 +44,7 @@ namespace WPF_LoginForum
 
         private void Register(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Work In Progress. Please Wait Until The Next Patch To Use This Feature");
         }
 
         private void LogIn(object sender, RoutedEventArgs e)

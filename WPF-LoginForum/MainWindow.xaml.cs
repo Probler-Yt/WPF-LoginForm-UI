@@ -49,6 +49,7 @@ namespace WPF_LoginForum
             MainApp MA = new MainApp();
             MA.Show();
             this.Close();
+
         }
 
         private void Register(object sender, RoutedEventArgs e)

@@ -26,3 +26,5 @@ D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainApp.g.cs
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainApp.baml
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\RegisterView.g.cs
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\RegisterView.baml
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WIP.g.cs
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WIP.baml
