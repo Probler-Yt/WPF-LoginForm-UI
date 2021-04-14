@@ -10,18 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_LoginForum
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainApp.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainApp : Window
     {
-
-        public MainWindow()
+        public MainApp()
         {
             InitializeComponent();
         }
@@ -34,6 +32,13 @@ namespace WPF_LoginForum
             }
         }
 
+        private void LogOut(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow MW = new MainWindow();
+            MW.Show();
+        }
+
         private void Close(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
@@ -43,13 +48,5 @@ namespace WPF_LoginForum
         {
             WindowState = WindowState.Minimized;
         }
-
-        private void LogIn(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            MainApp MA = new MainApp();
-            MA.Show();
-        }
-
     }
 }

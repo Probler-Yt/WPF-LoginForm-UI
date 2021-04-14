@@ -22,3 +22,5 @@ D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\bin\Debug\MahApps.Metro.IconPacks.Materi
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\ButtonTheme.baml
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\App.baml
 D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\WPF-LoginForum.csproj.CopyComplete
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainApp.g.cs
+D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\MainApp.baml
