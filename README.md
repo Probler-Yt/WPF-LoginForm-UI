@@ -1,4 +1,4 @@
-# WPF-LoginForum
+# WPF-LoginForm-UI
 
 you can contact me on discord for any further quations.
 https://discord.gg/gMGWNSrHuz
