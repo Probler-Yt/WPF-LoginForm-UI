@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="WIP"  Height="450" Width="380" AllowsTransparency="True" 
         Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
+        MouseDown="Window_MouseDown">
 
     <Grid>
         <Border CornerRadius="10" Grid.RowSpan="2">

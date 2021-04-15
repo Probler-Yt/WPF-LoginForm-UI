@@ -45,7 +45,6 @@ namespace WPF_LoginForum
         private void Register(object sender, RoutedEventArgs e)
         {
             WIP wip = new WIP();
-            wip.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             wip.Show();
             this.Close();
         }
@@ -53,7 +52,6 @@ namespace WPF_LoginForum
         private void LogIn(object sender, RoutedEventArgs e)
         {
             MainWindow MW = new MainWindow();
-            MW.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             MW.Show();
             this.Close();
         }
