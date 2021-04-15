@@ -1,12 +1,13 @@
-﻿<Page x:Class="WPF_LoginForum.WIP"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:WPF_LoginForum"
-      mc:Ignorable="d" 
-      Height="450" Width="380"
-      Title="WIP">
+﻿<Window x:Class="WPF_LoginForum.WIP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_LoginForum"
+        mc:Ignorable="d"
+        Title="WIP"  Height="450" Width="380" AllowsTransparency="True" 
+        Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
 
     <Grid>
         <Border CornerRadius="10" Grid.RowSpan="2">
@@ -18,5 +19,27 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
+
+        <StackPanel VerticalAlignment="Center">
+            <Image Source="/Images/Icon Mono White Transparent.png" Width="80"/>
+
+            <TextBlock Text="Probler" 
+                           FontWeight="Light" 
+                           FontSize="22" 
+                           FontFamily="helvetica"
+                           Foreground="White" 
+                           HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Work In Progress" 
+                           FontWeight="Light" 
+                           FontSize="22" 
+                           FontFamily="helvetica"
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           Padding="0,50"/>
+
+            <Button Width="125" Height="45" Content="Back To Login Page" Click="Back"/>
+
+        </StackPanel>
     </Grid>
-</Page>
+</Window>

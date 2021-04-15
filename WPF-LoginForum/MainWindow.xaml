@@ -29,6 +29,8 @@
                 </Border.Background>
             </Border>
 
+            <!--logo-->
+            
             <StackPanel VerticalAlignment="Center">
                 <Image Source="/Images/Icon Mono White Transparent.png" Width="80"/>
 
@@ -40,6 +42,8 @@
                            HorizontalAlignment="Center"/>
             </StackPanel>
 
+            <!--text boxes-->
+            
             <StackPanel Grid.Row="1">
                 <StackPanel Orientation="Horizontal" >
                     <TextBox FontFamily="helvetica"
