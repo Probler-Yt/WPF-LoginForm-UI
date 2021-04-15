@@ -36,6 +36,7 @@ namespace WPF_LoginForum
         private void Back(object sender, RoutedEventArgs e)
         {
             RegisterView rw = new RegisterView();
+            rw.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             rw.Show();
             this.Close();
         }

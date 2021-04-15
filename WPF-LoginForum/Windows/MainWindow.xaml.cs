@@ -47,6 +47,7 @@ namespace WPF_LoginForum
         private void LogIn(object sender, RoutedEventArgs e)
         {
             MainApp MA = new MainApp();
+            MA.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             MA.Show();
             this.Close();
 
@@ -55,6 +56,7 @@ namespace WPF_LoginForum
         private void Register(object sender, RoutedEventArgs e)
         {
             RegisterView RV = new RegisterView();
+            RV.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             RV.Show();
             this.Close();
         }

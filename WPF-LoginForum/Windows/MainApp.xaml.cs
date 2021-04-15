@@ -35,6 +35,7 @@ namespace WPF_LoginForum
         private void LogOut(object sender, RoutedEventArgs e)
         {
             MainWindow MW = new MainWindow();
+            MW.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             MW.Show();
             this.Close();
         }

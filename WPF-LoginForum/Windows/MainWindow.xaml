@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="380" AllowsTransparency="True" 
         Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
+        MouseDown="Window_MouseDown" WindowStartupLocation="CenterScreen">
     <Grid>
 
         <!--this splits the view into 2 rows stacked. the top half and the buttom half-->
