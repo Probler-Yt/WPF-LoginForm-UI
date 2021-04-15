@@ -13,5 +13,8 @@ namespace WPF_LoginForum
     /// </summary>
     public partial class App : Application
     {
+
     }
+
+
 }

@@ -37,10 +37,10 @@ namespace WPF_LoginForum
         {
             double toploc = this.Top;
             double leftloc = this.Left;
-            RegisterView rw = new RegisterView();
-            rw.Top = toploc;
-            rw.Left = leftloc;
-            rw.Show();
+            MainWindow mw = new MainWindow();
+            mw.Top = toploc;
+            mw.Left = leftloc;
+            mw.Show();
             this.Close();
         }
 
