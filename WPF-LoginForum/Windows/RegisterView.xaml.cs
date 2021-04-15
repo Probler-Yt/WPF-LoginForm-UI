@@ -44,14 +44,23 @@ namespace WPF_LoginForum
 
         private void Register(object sender, RoutedEventArgs e)
         {
+
+            double toploc = this.Top;
+            double leftloc = this.Left;
             WIP wip = new WIP();
+            wip.Top = toploc;
+            wip.Left = leftloc;
             wip.Show();
             this.Close();
         }
 
         private void LogIn(object sender, RoutedEventArgs e)
-        {
+        { 
+            double toploc = this.Top;
+            double leftloc = this.Left;
             MainWindow MW = new MainWindow();
+            MW.Top = toploc;
+            MW.Left = leftloc;
             MW.Show();
             this.Close();
         }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="380" AllowsTransparency="True" 
         Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
+        MouseDown="Window_MouseDown">
     <Grid>
 
         <!--this splits the view into 2 rows stacked. the top half and the buttom half-->
@@ -103,7 +103,7 @@
 
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
                 <Button Content="-" FontSize="20" FontWeight="Black" Width="22" Height="21"  Click="Minimise"/>
-                <Button Content="X" Width="21" FontWeight="Bold" Height="21" Margin="05,0,0,0" Click="Close" RenderTransformOrigin="0.226,1.417"/>
+                <Button Content="X" Width="21" FontWeight="Bold" Height="21" Margin="05,0,0,0" Click="Close"/>
             </StackPanel>
         </Grid>
     </Grid>

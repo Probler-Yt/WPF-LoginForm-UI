@@ -35,7 +35,11 @@ namespace WPF_LoginForum
 
         private void Back(object sender, RoutedEventArgs e)
         {
+            double toploc = this.Top;
+            double leftloc = this.Left;
             RegisterView rw = new RegisterView();
+            rw.Top = toploc;
+            rw.Left = leftloc;
             rw.Show();
             this.Close();
         }
