@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\
+E:\VS\WPF\WPF-LoginForum\WPF-LoginForum\obj\Debug\
 WPF_LoginForum
 none
 false
 DEBUG;TRACE
-D:\VS\WPF\WPF-LoginForum\WPF-LoginForum\App.xaml
+E:\VS\WPF\WPF-LoginForum\WPF-LoginForum\App.xaml
 5-2047673731
 
 9-528348172
-19-1747412098
+19471581276
 ButtonTheme.xaml;Windows\MainApp.xaml;Windows\MainWindow.xaml;Windows\RegisterView.xaml;Windows\WIP.xaml;
 
-False
+True
 

@@ -136,5 +136,12 @@
   <ItemGroup>
     <Resource Include="Images\Icon Mono White Transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clouds.png" />
+    <Resource Include="Images\clouds2.png" />
+    <Resource Include="Images\flappyBird.png" />
+    <Resource Include="Images\pipeBottom.png" />
+    <Resource Include="Images\pipeTop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

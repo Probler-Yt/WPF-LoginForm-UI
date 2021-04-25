@@ -43,14 +43,26 @@ namespace WPF_LoginForum
             this.Close();
         }
 
-        private void Close(object sender, RoutedEventArgs e)
+
+        private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            System.Windows.Application.Current.Shutdown();
+
         }
 
-        private void Minimise(object sender, RoutedEventArgs e)
+        private void KeyIsUp(object sender, KeyEventArgs e)
         {
-            WindowState = WindowState.Minimized;
+
         }
+
+        private void StartGame()
+        {
+
+        }
+
+        private void EndGame()
+        {
+
+        }
+
     }
 }

@@ -5,55 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_LoginForum"
         mc:Ignorable="d"
-        Title="MainApp" Height="450" Width="380" AllowsTransparency="True" 
-        Background="Transparent" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown" WindowStartupLocation="CenterOwner">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+        Title="Flappy Bird" Height="490" Width="525">
 
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" 
+            KeyUp="KeyIsUp" Background="LightBlue">
 
-        <!--this makes the border roundier and also gives the gradiant / color-->
-        <Border CornerRadius="10" Grid.RowSpan="2">
-            <Border.Background>
-                <LinearGradientBrush>
-                    <GradientStop Color="Black" Offset="1.0"/>
-                    <GradientStop Color="Lime" Offset="0.0"/>
+        <Image Height="145" Width="200" Source="images/clouds.png" Canvas.Left="60" Canvas.Top="162" Tag="cloud" />
+        <Image Height="145" Width="200" Source="images/clouds2.png" Canvas.Left="299" Canvas.Top="162" Tag="cloud" />
 
-                </LinearGradientBrush>
-            </Border.Background>
-        </Border>
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="106" Canvas.Top="180" Tag="obs1" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="106" Canvas.Top="-344" Tag="obs1"/>
 
-        <StackPanel VerticalAlignment="Center">
-            <Image Source="/Images/Icon Mono White Transparent.png" Width="80"/>
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="265" Canvas.Top="370" Tag="obs2" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="265" Canvas.Top="-154" Tag="obs2"/>
 
-            <TextBlock Text="Probler" 
-                           FontWeight="Light" 
-                           FontSize="22" 
-                           FontFamily="helvetica"
-                           Foreground="White" 
-                           HorizontalAlignment="Center"/>
-        </StackPanel>
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="433" Canvas.Top="254" Tag="obs3" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="433" Canvas.Top="-270" Tag="obs3"/>
 
-        <StackPanel Grid.Row="1">
-            <TextBlock Text="Logged In Successfully" 
-                           FontWeight="Light" 
-                           FontSize="22" 
-                           FontFamily="helvetica"
-                           Foreground="White" 
-                           HorizontalAlignment="Center"/>
-        </StackPanel>
+        <Image Name="FlappyBird" Height="36" Width="50" Source="images/flappyBird.png" Stretch="Fill" 
+               Canvas.Left="34" Canvas.Top="126" />
 
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Width="100" Height="40" Content="Log Out" Click="LogOut"/>
-        </StackPanel>
+        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="Score: 0" />
+    </Canvas>
 
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
-            <Button Content="-" FontSize="20" FontWeight="Black" Width="22" Height="21"  Click="Minimise"/>
-            <Button Content="X" Width="21" FontWeight="Bold" Height="21" Margin="05,0,0,0" Click="Close" RenderTransformOrigin="0.226,1.417"/>
-        </StackPanel>
-
-    </Grid>
 </Window>
