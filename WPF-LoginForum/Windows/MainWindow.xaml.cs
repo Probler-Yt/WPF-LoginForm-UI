@@ -49,13 +49,17 @@ namespace WPF_LoginForum
 
         private void LogIn(object sender, RoutedEventArgs e)
         {
-            double toploc = this.Top;
-            double leftloc = this.Left;
-            MainApp MA = new MainApp();
+
+            /**  double toploc = this.Top;
+             double leftloc = this.Left;  **/
+             MainApp MA = new MainApp();
+             /**
             MA.Top = toploc;
             MA.Left = leftloc;
+                        **/
+
             MA.Show();
-            this.Close();
+            this.Close(); 
 
         }
 
